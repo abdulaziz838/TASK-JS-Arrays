@@ -30,10 +30,10 @@ function isArrayLengthOdd(numbers) {
  */
 function isArrayLengthEven(numbers) {
   numbers = [1,2,4,5];
-  if(numbers.length % 2 !== 0) {
-    return false;
+  if(numbers.length % 2 === 0) {
+    return true;
   }
-  return true;
+  return false;
   
 }
 console.log (isArrayLengthEven());
@@ -83,9 +83,16 @@ console.log (eliminateTeam());
  * secondHalfOfArrayIfItIsEven(["apple", "orange", "banana", "kiwi", "blueberry"]) -> []
  */
 function secondHalfOfArrayIfItIsEven(fruits) {
-  // Your code here
-}
+  fruits = ["apple", "orange","banana","kiwi]"];
 
+  if (fruits.length % 2 === 0 ) {
+     return ["banana","kiwi"] }
+        return [];
+    }
+  
+
+
+console.log (secondHalfOfArrayIfItIsEven());
 /**
  * youGottaCalmDown(shout):
  * - receives a string `shout`
@@ -101,5 +108,7 @@ function secondHalfOfArrayIfItIsEven(fruits) {
  * - Use string method .slice()
  */
 function youGottaCalmDown(shout) {
-  // Your code here
+  shout = ["HI!!!!!!!","Tayler Schwifting!!!!!","Helloooo"];
+  if ( shout )
+
 }
